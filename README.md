@@ -47,7 +47,7 @@ Mobile invalid email version
 ### Links
 
 - [Solution URL](https://github.com/NichitaGabriel/Newsletter-sign-up-form-with-success-message)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://nichitagabriel.github.io/Newsletter-sign-up-form-with-success-message/)
 
 ## My process
 
