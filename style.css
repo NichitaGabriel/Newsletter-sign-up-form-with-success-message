@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	background-color: hsl(0, 0%, 5%);
+}
+
+#desktop-version {
+	display: none;
+}
+
+.newsletter-card {
+	width: 375px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	background-color: hsl(0, 0%, 100%);
+	margin-top: 2rem;
+	/* display: none; */
+}
+
+.sign-up-start {
+	padding: 25px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 700;
+	color: hsl(235, 18%, 20%);
+}
+
+.description {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	color: hsl(235, 18%, 26%);
+}
+
+.benefit {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 20px;
+	margin-bottom: 1rem;
+	color: hsl(234, 29%, 20%);
+}
+
+.newsletter-register {
+	margin-top: 2.5rem;
+}
+
+.newsletter-register input:first-of-type {
+	width: 325px;
+	height: 60px;
+	border-radius: 10px;
+	font-size: 19px;
+	text-indent: 20px;
+	border: 1px solid hsl(231, 7%, 80%);
+	outline: none;
+}
+
+#email {
+	margin-bottom: 1.5rem;
+}
+
+.enter-email {
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: hsl(234, 29%, 20%);
+}
+
+::placeholder {
+	color: hsl(231, 7%, 70%);
+}
+
+.submit {
+	width: 325px;
+	height: 60px;
+	border-radius: 10px;
+	border: 0px;
+	outline: none;
+	background-color: hsl(234, 29%, 20%);
+	color: white;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.input-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.error-message {
+	font-size: 12px;
+
+	font-weight: 700;
+}
+
+.invalid-email {
+	border: 1px solid red !important;
+	background-color: hsl(4, 100%, 90%);
+}
+
+.invalid-email::placeholder {
+	color: hsl(4, 100%, 67%);
+}
+
+.submit:active {
+	background-color: hsl(4, 100%, 67%);
+}
+
+.sign-up-success {
+	width: 375px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	background-color: hsl(0, 0%, 100%);
+	margin-top: 2rem;
+	padding: 35px;
+	display: none;
+}
+
+.email-address {
+	font-weight: 700;
+}
+
+.success {
+	margin-top: 8rem;
+}
+
+.title-success {
+	font-size: 40px;
+	font-weight: 700;
+	color: hsl(235, 18%, 20%);
+	margin-top: 2rem;
+}
+
+.description-success {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	line-height: 23px;
+	color: hsl(235, 18%, 20%);
+}
+
+.dismiss {
+	width: 306px;
+	height: 60px;
+	border-radius: 10px;
+	border: 0px;
+	outline: none;
+	background-color: hsl(234, 29%, 20%);
+	color: white;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 10rem;
+}
+
+.dismiss:active {
+	background-color: hsl(4, 100%, 67%);
+}
+
+@media screen and (min-width: 426px) and (max-width: 2560px) {
+	#mobile-version {
+		display: none;
+	}
+
+	#desktop-version {
+		display: block;
+		width: 100%;
+	}
+
+	.newsletter-card {
+		display: flex;
+		flex-direction: row;
+		width: 850px;
+		height: 600px;
+		border-radius: 25px;
+		overflow: hidden;
+	}
+
+	.image-logo {
+		width: 50%;
+		overflow: hidden;
+		padding: 25px;
+	}
+
+	.sign-up-start {
+		padding: 80px 0px 0px 50px;
+		width: 50%;
+	}
+
+	.input-header {
+		width: 370px;
+	}
+
+	.title {
+		font-size: 52px;
+	}
+
+	form {
+		width: 370px;
+	}
+
+	#email {
+		width: 100%;
+	}
+
+	.submit {
+		width: 100%;
+	}
+
+	.submit:hover {
+		background-color: hsl(4, 100%, 67%);
+	}
+
+	.sign-up-success {
+		width: 500px;
+		height: 500px;
+		margin-top: 15rem;
+		padding: 60px;
+		border-radius: 30px;
+	}
+
+	.success {
+		margin: 0;
+	}
+
+	.title-success {
+		margin: 0;
+		padding: 0;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		font-size: 52px;
+		line-height: 50px;
+	}
+
+	.dismiss {
+		margin-top: 2rem;
+		margin-left: 1rem;
+		width: 350px;
+		height: 50px;
+	}
+
+	.dismiss:hover {
+		background-color: hsl(4, 100%, 67%);
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 1.5rem;
+	color: white;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
