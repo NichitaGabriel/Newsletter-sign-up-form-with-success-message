@@ -67,4 +67,4 @@ Mobile invalid email version
 
 ## Acknowledgments
 
-[MaximilianoDanielGarcia](https://www.frontendmentor.io/profile/MaximilianoDanielGarcia) - "Big thanks for the fantastic CSS advice!
+[MaximilianoDanielGarcia](https://www.frontendmentor.io/profile/MaximilianoDanielGarcia) - Big thanks for the fantastic CSS advice!
