@@ -15,6 +15,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -63,3 +64,7 @@ Mobile invalid email version
 
 - Website - [Nichita Gabriel](https://github.com/NichitaGabriel)
 - Frontend Mentor - [@nichitagabriel](https://www.frontendmentor.io/profile/NichitaGabriel)
+
+## Acknowledgments
+
+[MaximilianoDanielGarcia](https://www.frontendmentor.io/profile/MaximilianoDanielGarcia) - "Big thanks for the fantastic CSS advice!
